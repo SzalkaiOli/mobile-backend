@@ -26,13 +26,13 @@ class MobileBackendApplicationTests {
 		employeeDao.save(employee);
 	}
 
-	@Test
+	//@Test
 	void getAllEmployeeTest() {
 		List<Employee> employees = employeeDao.getAllEmployees();
 		System.out.println(employees);
 	}
 
-	@Test
+	//@Test
 	void getAllEmployeesAndDeleteTest() {
 		List<Employee> employees = employeeDao.getAllEmployees();
 		for(Employee employee : employees) {

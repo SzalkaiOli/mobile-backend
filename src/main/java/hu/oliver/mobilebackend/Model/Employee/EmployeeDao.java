@@ -14,8 +14,8 @@ public class EmployeeDao {
     @Autowired
     private EmployeeRepository repository;
 
-    public void save(Employee employee) {
-        repository.save(employee);
+    public Employee save(Employee employee) {
+        return repository.save(employee);
     }
 
     public List<Employee> getAllEmployees() {
