@@ -1,2 +1,5 @@
+hu/oliver/mobilebackend/Model/Employee/EmployeeDao.class
+hu/oliver/mobilebackend/Model/Employee/EmployeeRepository.class
 hu/oliver/mobilebackend/MobileBackendApplication.class
+hu/oliver/mobilebackend/Model/Controller/EmployeeController.class
 hu/oliver/mobilebackend/Model/Employee/Employee.class
