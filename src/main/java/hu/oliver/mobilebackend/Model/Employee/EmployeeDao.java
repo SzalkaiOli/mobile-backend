@@ -9,8 +9,6 @@ import java.util.List;
 
 @Service
 public class EmployeeDao {
-
-    // nem az _Controllernek/_Servicenek felel meg?
     @Autowired
     private EmployeeRepository repository;
 
